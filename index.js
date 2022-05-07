@@ -62,7 +62,7 @@ fs.readdir("./commands", (err, files) => {
 });
 bot.on("message", message => {
     if(message.author.bot) return;
-  let prefix = "s!";
+  let prefix = ".";
     let messageArray = message.content.split(" ")
     let cmd = messageArray[0]
     let args = messageArray.slice(1);
@@ -123,4 +123,4 @@ bot.on('ready', () => {
 
 
 
-bot.login("OTcyMDk4MzMwMTI3NjM4NTU4.YnUHHg.2fGgvTCzF00X6msNIfQlXj_fygo")
+bot.login("OTEyMDA2OTY2MzAwMjUwMTQy.YZpqrQ.0sU6jUaI7M8i6Od4Ued-l_oKftQ")

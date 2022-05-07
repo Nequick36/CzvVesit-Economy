@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
         let embed = new Discord.RichEmbed()
 
     .setColor("RED")
-  .setAuthor('CzvVesti | Security', 'https://i.imgur.com/iSbCziO.jpg' )
+  .setAuthor('CzvVesti | Pomoć', 'https://i.imgur.com/iSbCziO.jpg' )
   .setFooter("CzvVesti | Admin Team", 'https://i.imgur.com/iSbCziO.jpg' )
   .setThumbnail (message.author.displayAvatarURL)
   .addField("❌» Nemate dozvolu da koristite ovu komandu", "Ovu komandu mogu koristiti samo Developeri Bota") 
